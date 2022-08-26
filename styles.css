@@ -109,7 +109,7 @@ header {
   width: 100%;
   opacity: 70%;
   color: black;
-  padding: 10px 0px 0px 50px;
+  
 }
 
   .showcasenos-img {
@@ -214,7 +214,7 @@ header {
           text-align: left;
           text-transform: uppercase;
           }
-          .container-1 {
+          .container {
             margin: auto;
             max-width: 1300px;
             overflow: auto;
