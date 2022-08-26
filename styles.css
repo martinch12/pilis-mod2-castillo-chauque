@@ -95,12 +95,13 @@ header {
   float: left;
   width: 70%;
 } 
-.showcase-img iframe {
+.showcase-vid iframe {
   width: 100%;
+  
 }
-.showcasevid-vid {
-  float: right;
-  width: 100%;
+.showcase-vid {
+  float: left;
+  width: 70%;
   padding: 30px 30px 30px 50px;
 }
 .showcasevid-text .titlevid-one {
@@ -108,13 +109,9 @@ header {
   width: 100%;
   opacity: 70%;
   color: black;
+  padding: 10px 0px 0px 50px;
 }
-.container {
-  margin: auto;
-  max-width: 1300px;
-  overflow: auto;
-  padding: 0 10px;
-  }
+
   .showcasenos-img {
     float: left;
     width: 25%;
@@ -145,12 +142,7 @@ header {
     float: right;
   }
  
-  .container {
-    margin: auto;
-    max-width: 1300px;
-    overflow: auto;
-    padding: 0 10px;
-    }
+  
     /* contacto */
     #contacto {
       padding: 120px 0;
@@ -222,16 +214,10 @@ header {
           text-align: left;
           text-transform: uppercase;
           }
-          .container{
+          .container-1 {
             margin: auto;
             max-width: 1300px;
             overflow: auto;
             padding: 0 10px;
             }
-            .container {
-              margin: auto;
-              max-width: 1300px;
-              overflow: auto;
-              padding: 0 10px;
-              }
              
