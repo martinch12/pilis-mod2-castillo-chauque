@@ -2,165 +2,157 @@
 * {
   box-sizing: border-box;
 }
-#section {
-  background: #ebcc7b;
-}
+
 html, body {
   font-family: 'Manrope', sans-serif;
-  background: #92c205;
-  color: #ebcc7b;
+  background: #fff;
+  color: #93b93a;
   scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
 }
 #navbar a {
-  color: #ebcc7b;
+  color: #93b93a;
 }
-#navbar .logo{
-  text-transform: uppercase;
-  font-size: 25px ;
-  padding-top: 20px;
-  font-weight: 400;
+.showcaselog-img {
+  float: right;
+  width: 10%;
+}
+
+.showcaselog-img img {
+  width: 100%;
   float: right;
 }
+
 #navbar ul{
   list-style: none;
   text-transform: uppercase;
-  float: left;
+  float: right;
 }
 #navbar ul li {
-  float: right;
+  float:right;
 }
 #navbar ul li a {
   display:block;
-  padding: 20px;
+  padding: 60px;
   text-align: center;
 }
 
 #navbar ul li a:hover {
   background: #539304;
+  border-radius: 10px;
   
 }
-/* PRIMERA IMAGEN Y TEXTO */
-.showcase-img {
-  float: right;
-  width: 50%;
-}
-
-.showcase-img img {
-  width: 90%;
-}
-
-.showcase-text {
+.showcasecactus-img {
   float: left;
-  width: 50%;
-  padding: 20px 20px 20px 40px;
+  width: 20%;
 }
 
-.showcase-text h1 {
-  text-transform: uppercase;
-font-weight: 500;
-font-size: 46px;
+.showcasecactus-img img {
+  width: 100%;
+  float: left;
+  padding-top: 10px;
+}
+.showcaseplanta-img {
+  float: right;
+  width: 25%;
 }
 
-.showcase-text .title-one {
-  font-size: 29px;
-  font-weight: 400;
+.showcaseplanta-img img {
+  width: 100%;
+  float: right;
+  padding-top: 220px;
 }
-.showcase-text .title-two {
-  color: #cccfc6;
+.showcase-text-evento {
+  float: left;
+  background-color: #93b93a;
+  color: #efe4b0;
+  border-radius: 10px;
 }
-.showcase-text .large {
-  padding-top: 20px;
+.showcase-text {
+  text-align: center;
 }
 
 header {
   height: 100vh;
 }
 
+.showcasetira-img {
+  float: right;
+  width: 30%;
+}
+
+.showcasetira-img img {
+  width: 100%;
+  float: center;
+  padding: 5px 50px 15px;
+  opacity: 70%;
+  align-content: center;
+}
+/* video */
+.showcase-vid {
+  float: left;
+  width: 70%;
+} 
+.showcase-img iframe {
+  width: 100%;
+}
+.showcasevid-vid {
+  float: right;
+  width: 100%;
+  padding: 30px 30px 30px 50px;
+}
+.showcasevid-text .titlevid-one {
+  background-color: #93b93a;
+  width: 100%;
+  opacity: 70%;
+  color: black;
+}
 .container {
   margin: auto;
   max-width: 1300px;
   overflow: auto;
   padding: 0 10px;
   }
-  
-  /* video */
-  .showcase-vid {
-    float: left;
-    width: 50%;
-  } 
-  .showcase-img iframe {
-    width: 90%;
-  }
-  .showcasevid-vid {
-    float: right;
-    width: 50%;
-    padding: 20px 20px 20px 40px;
-  }
-  .showcasevid-text h2 {
-    text-transform: uppercase;
-  font-weight: 500;
-  font-size: 46px;
-  }
-  .showcasevid-text .titlevid-one {
-    font-size: 29px;
-    font-weight: 400;
-    color: #cccfc6;
-  }
-  .showcasevid-text .large {
-    padding-top: 20px;
-    text-transform: uppercase;
-  }
-  .container {
-    margin: auto;
-    max-width: 1300px;
-    overflow: auto;
-    padding: 0 10px;
-    }
-    
-
-  /* NOSOTROS */
   .showcasenos-img {
-    float: right;
-    width: 50%;
-  } 
+    float: left;
+    width: 25%;
+    padding: 150px 50px 30px 80px;
+  }
+  
   .showcasenos-img img {
-    width: 90%;
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    
   }
   .showcasenos-text {
-    float: left;
-    width: 50%;
-    padding: 20px 20px 20px 40px;
+    padding:150px 85px;
   }
-  
-  .showcasenos-text h1 {
-  font-weight: 500;
-  font-size: 40px;
-  }
-  .showcase-text .title-one {
+  .showcasenos-text .titlenos-one {
     font-size: 29px;
     font-weight: 400;
   }
  
-  .showcase-text .large {
+  .showcasenos-text .large-nos {
     padding-top: 20px;
+    color: black;
   }
-  
-  header {
-    height: 100vh;
+  .showcasenos-text .titleint-one {
+    font-size: 29px;
+    font-weight: 400;
+    float: right;
   }
-  
+ 
   .container {
     margin: auto;
     max-width: 1300px;
     overflow: auto;
     padding: 0 10px;
     }
-
-    /* REGISTRATE */
-    #Registrate {
+    /* contacto */
+    #contacto {
       padding: 120px 0;
       }
      
@@ -171,12 +163,21 @@ header {
       
       }
       
-      
-      
       form .form-group {
         margin-bottom: 0.5rem;
-        color: #ebcc7b;
+        color: #efe4b0;
       }
+      .showcaseinteg-img {
+        float: right;
+        width: 45%;
+      }
+      
+      .showcaseinteg-img img {
+        width: 100%;
+        float: right;
+        padding-top: 100px;
+      }
+      
       
       form .form-control {
       /* display: block; */
@@ -200,7 +201,7 @@ header {
         .btn-light {
         background: #539304;
         border: 1px solid #539304;
-        color: #ebcc7b;
+        color: #efe4b0;
         width: 100%;
         }
         .btn-light:hover {
@@ -217,7 +218,20 @@ header {
         .registro-title {
           float: left;
           width: 50%;
-          padding-top: 60px;
+          padding-top: 20px;
           text-align: left;
           text-transform: uppercase;
           }
+          .container{
+            margin: auto;
+            max-width: 1300px;
+            overflow: auto;
+            padding: 0 10px;
+            }
+            .container {
+              margin: auto;
+              max-width: 1300px;
+              overflow: auto;
+              padding: 0 10px;
+              }
+             
