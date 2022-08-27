@@ -234,6 +234,10 @@ header {
             float: left;
            }
           
+           .clima {
+            padding-top: 300px;
+            padding-left: 450px;
+           }
           .container {
             margin: auto;
             max-width: 1300px;
