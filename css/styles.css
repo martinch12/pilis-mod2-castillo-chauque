@@ -21,7 +21,7 @@ a {
 }
 
 .showcaselog-img img {
-  width: 100%;
+  width: 75%;
   float: right;
 }
 
@@ -35,13 +35,15 @@ a {
 }
 #navbar ul li a {
   display:block;
-  padding: 60px;
+  padding: 70px;
   text-align: center;
 }
 
 #navbar ul li a:hover {
   background: #539304;
   border-radius: 10px;
+  transition: background-color .5s;
+  padding: 60px;
   
 }
 .showcasecactus-img {
@@ -144,6 +146,13 @@ header {
  
   
     /* contacto */
+    .regist {
+      background: #92c205;
+      color: #efe4b0;
+    }
+    #section.registrate {
+      background: #92c205;
+    }
     #contacto {
       padding: 120px 0;
       }
@@ -214,10 +223,22 @@ header {
           text-align: left;
           text-transform: uppercase;
           }
+        /* footer */
+          .contactowha {
+            padding: 20px 50px 30px 0px;
+            width: 70%;
+            float: right;
+           }
+           .contactowha img {
+            width: 10%;
+            float: left;
+           }
+          
           .container {
             margin: auto;
             max-width: 1300px;
             overflow: auto;
             padding: 0 10px;
             }
+            
              

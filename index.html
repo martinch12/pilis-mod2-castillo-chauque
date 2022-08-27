@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feria de las Plantas</title>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="./styles.css" />
+    
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <header id="mainheader">
       <nav id="navbar">
         <div class="container-1">
           <div class="showcaselog-img">
+            <a href="">
             <img
               src="./assets/logo.png"
               alt="showcase"
             />
+            </a>
           </div>
           <ul>
             <li><a href="#contacto">Contacto</a></li>
@@ -37,7 +40,7 @@
       </nav>
       <div class="showcase-text-evento">
         <h1>
-          EVENTO
+          FERIA DE LAS PLANTAS
         </h1>
       </div>
       <nav class="imagenplanta">
@@ -59,10 +62,7 @@
               <span class="title-two">COMERCIO JUJEÑO</span><br />
             </h1>
             <p class="large">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi cum
-              vitae sapiente corporis aliquam, ratione voluptatum eligendi
-              repudiandae ut sint officia molestias natus, repellat autem!
-              Dolorum deserunt perferendis minus necessitatibus.
+              En el marco del fomento del Gobierno de Jujuy al desarrollo de emprendedores jujeños, el Ministerio de Desarrollo Económico y Producción organiza la Feria de Plantas con el objetivo de fortalecer y apoyar fuertemente al sector productor de flores y plantas ornamentales de nuestra Provincia.- 
             </p>
           </div>
         </div>
@@ -83,8 +83,8 @@
           </nav>
           <div class="showcase-vid">
             <iframe
-              width="800"
-              height="450"
+              width="900"
+              height="400"
               src="https://www.youtube.com/embed/9PBOyTnzi_w"
               title="YouTube video player"
               frameborder="0"
@@ -94,7 +94,8 @@
           </div>
           <!-- texto -->
           <div class="showcasevid-text">
-            <h2><span class="titlevid-one"> -- FERIA DE LAS PLANTAS ----  MINISTERIO DE PRODUCCION DE JUJUY --</span><br /></h2>
+            <h2><span class="titlevid-one"> JUNTOS POTENCIAMOS EL COMERCIO JUJEÑO  </span><br /></h2>
+            <h3><span class="subtitlevid">Invitamos al público en general a disfrutar de la Nueva Edición de la Feria de Plantas, que se realizara en Ciudad Cultural, con exposición y ventas de flores y plantas ornamentales, creación y producción de floricultores de la provincia </span></h3>
           </div>
         </div>
       </div>
@@ -145,6 +146,7 @@
      
       <br><br>
 <!-- contacto -->
+<div class="regist">
 <section id="registrate">
   <div class="container-contacto">
     <div class="titlereg">
@@ -153,38 +155,61 @@
     </h1>
   </div>
   <div class="registro-form">
-  <form action="">
+  <form id="formulario">
   <div class="form-group">
   <label for="name">Comercio</label>
-  <input class="form-control" type="text">
+  <input id="comercio" class="form-control" type="text" placeholder="comercio">
   </div>
   <div class="form-group">
   <label for="name">Titular</label>
-  <input class="form-control" type="text">
+  <input id="titular" class="form-control" type="text" placeholder="titular">
   </div>
   <div class="form-group">
   <label for="name">celular</label>
-  <input class="form-control" type="tel">
+  <input id="celular" class="form-control" type="tel" placeholder="celular">
   </div>
-  <button class="btn btn-light">Enviar</button>
+  <button id="enviar" class="btn btn-light">Enviar</button>
   </form>
   </div>
   <div class="registro-title">
   
   <div class="showcase-text">
     <h1>
-      <span class="title-one">SUMATE AL EVENTO</span><br /> </h1>
-      <h2><span class="title-two">PARA POTENCIAR</span><br></h2>
-      <h1><span class="title-two">EL COMERCIO LOCAL</span><br /></h1>
-      <h2><span class="title-two">LUEGO</span><br /></h2>
-      <h1><span class="title-two">TE CONTACTAMOS</span><br /></h1>
-   
+      <h2><span class="title-one">SI SOS PRODUCTOR Y/O COMERCIANTE FLORICULTOR </span><br /> </h2>
+      <h3><span class="title-two">SUMATE AL EVENTO PARA POTENCIAR EL COMERCIO LOCAL</span><br></h3>
+      <h2><span class="title-two">REGISTRATE</span><br /></h2>
+      <h3><span class="title-two">LUEGO</span><br /></h3>
+      <h2><span class="title-two">TE CONTACTAREMOS</span><br /></h2>
+    </h1>
     
   </div>
   </div>
   </div>
   </section>
-
-    <footer></footer>
+</div>
+<footer>
+  <section id="contacto">
+  <div class="contactowha">
+  <h2 id="contactowhatsapp">
+    Ante cualquier consulta, comuníquese al :
+  </h2>
+  <div class="logocontacto">
+    <a href="https://wa.me/5493884410626"
+      ><img id="iconowhatsapp" src="./assets/whatsapp-1.png" alt="iconowhats"
+    /></a>
+    <a href="http://www.produccion.jujuy.gob.ar/"
+      ><img id="iconoproduccion" src="./assets/logo_jujuy.png" alt="iconoprod"
+    /></a>
+    <a href="https://www.facebook.com/ProduccionJujuy/"
+    ><img id="iconofacebook" src="./assets/facebook-1.png" alt="iconoface"
+  /></a>
+  <a href="https://twitter.com/ProduccionJujuy"
+    ><img id="iconotwitter" src="./assets/twitter-1.png" alt="iconotwit"
+  /></a>
+  </div>
+</div>
+</section>
+</footer>
+<script src="./js/main.js"></script>
   </body>
 </html>
